@@ -5,4 +5,4 @@ const dimensionSchema = new Schema({
   reference: { type: String, required: true }
 });
 
-module.exports = mongoose.model("dimension", dimensionSchema);
+module.exports = mongoose.model("Dimension", dimensionSchema);

@@ -6,4 +6,4 @@ const providerSchema = new Schema({
   country: { type: String }
 });
 
-module.exports = mongoose.model("provider", providerSchema);
+module.exports = mongoose.model("Provider", providerSchema);
